@@ -45,8 +45,6 @@ namespace SU02 {
 
         voltage = (((((a & 0x0F) * 256) + (b & 0xF0)) / 0x10) * (3.3 / 256));
 
-        console.logValue("voltage", voltage)
-
         if (voltage > HIGH_STATE) {
             state = true;
         } else if (voltage < LOW_STATE) {
