@@ -1,7 +1,7 @@
 {
   "name": "SU02",
   "version": "0.0.4",
-  "description": "",
+  "description": "XinaBox SU02 Digital Input",
   "dependencies": {
     "core": "*"
   },
